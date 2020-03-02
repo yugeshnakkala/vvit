@@ -1,0 +1,53 @@
+
+header{
+    text-align: center;
+    font-size: large;
+}
+.main{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.sub-left{
+    width: 25%;
+    height: 500px;
+    background-color: orangered;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 5%;
+    
+    
+}
+img{
+    border-radius: 50%;
+}
+.sub-right{
+    width: 74%;
+    background-color: turquoise;
+    border-radius: 3%;
+}
+hr{
+    color: white;
+}
+@media(min-device-width:320px) and (max-device-width:460px){
+    .main{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .sub-left{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        box-align: centers;
+       
+    }
+    .sub-right{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: centers;
+    }
+}

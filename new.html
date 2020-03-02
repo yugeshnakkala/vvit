@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body class="root">
+    
+</body>
+
+</html>
+<script>
+    
+    var h1=document.createElement("h1");
+    h1.textContent="Hey...hai";
+    h1.style.color="white";
+    h1.style.background="black";
+
+    var p=document.createElement("p");
+    p.textContent="Hey...hai";
+    p.style.color="white";
+    p.style.background="black";
+    p.setAttribute('id','vvit')
+
+    var body=document.getElementsByClassName("root");
+    body[0].appendChild(h1);
+    body[0].appendChild(p);
+    console.log(body);
+    
+
+</script>
